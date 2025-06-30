@@ -1,5 +1,5 @@
 def read_file_lines(filename):
-    f = open(filename, "r")  # 🚨 Not using 'with' context manager
+    f = open(filename, "r")  
     lines = f.readlines()
     f.close()
     return lines
