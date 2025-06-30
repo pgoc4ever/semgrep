@@ -1,5 +1,5 @@
 def validate_age(age):
-    assert age > 0, "Age must be positive"  # 🚨 Do not use asserts for runtime checks
+    assert age > 0, "Age must be positive"  
     return age
 
 def get_user_age():
